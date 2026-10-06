@@ -329,13 +329,17 @@
                 <div
                   class="flex items-center gap-2 px-4 py-2.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-[#61DAFB] transition-all duration-300 group"
                 >
-                  <i
-                    class="fa-brands fa-react text-xl text-[#61DAFB] group-hover:rotate-180 transition-transform duration-500"
-                  ></i>
-                  <span
-                    class="text-sm font-semibold text-slate-700 dark:text-slate-300"
-                    >React</span
-                  >
+                  <div class="flex items-center gap-2">
+                    <i
+                      class="fa-brands fa-angular text-xl angular-icon transition-transform duration-500 hover:scale-110"
+                    ></i>
+
+                    <span
+                      class="text-sm font-semibold text-slate-700 dark:text-slate-300"
+                    >
+                      Angular
+                    </span>
+                  </div>
                 </div>
                 <div
                   class="flex items-center gap-2 px-4 py-2.5 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:border-[#3178C6] transition-all duration-300 group"
@@ -429,33 +433,59 @@
                 </div>
 
                 <!-- Floating Badges around image -->
+
+                <!-- TypeScript -->
                 <div
-                  class="absolute -top-4 -right-4 bg-white dark:bg-slate-800 rounded-2xl p-3 shadow-xl border border-slate-200 dark:border-slate-700 animate-bounce"
+                  class="absolute -top-4 -right-4 rounded-2xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-700 dark:bg-slate-800 animate-bounce"
                   style="animation-duration: 3s"
                   aria-hidden="true"
                 >
-                  <i class="fa-brands fa-react text-3xl text-[#61DAFB]"></i>
+                  <svg
+                    class="h-8 w-8 text-[#3178C6]"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"
+                    />
+                  </svg>
                 </div>
+
+                <!-- Angular -->
                 <div
-                  class="absolute top-1/4 -left-6 bg-white dark:bg-slate-800 rounded-2xl p-3 shadow-xl border border-slate-200 dark:border-slate-700 animate-bounce"
+                  class="absolute top-1/4 -left-6 rounded-2xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-700 dark:bg-slate-800 animate-bounce"
                   style="animation-duration: 2.5s; animation-delay: 0.5s"
                   aria-hidden="true"
                 >
-                  <i class="fa-brands fa-vuejs text-3xl text-[#4FC08D]"></i>
+                  <i class="fa-brands fa-angular text-3xl angular-icon"></i>
                 </div>
+
+                <!-- Tailwind CSS -->
                 <div
-                  class="absolute -bottom-4 -right-4 bg-white dark:bg-slate-800 rounded-2xl p-3 shadow-xl border border-slate-200 dark:border-slate-700 animate-bounce"
+                  class="absolute -bottom-4 -right-4 rounded-2xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-700 dark:bg-slate-800 animate-bounce"
                   style="animation-duration: 3.5s; animation-delay: 1s"
                   aria-hidden="true"
                 >
-                  <i class="fa-brands fa-figma text-3xl text-[#F24E1E]"></i>
+                  <svg
+                    class="h-8 w-8 text-[#38BDF8]"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                    />
+                  </svg>
                 </div>
+
+                <!-- GitHub -->
                 <div
-                  class="absolute bottom-1/4 -left-6 bg-white dark:bg-slate-800 rounded-2xl p-3 shadow-xl border border-slate-200 dark:border-slate-700 animate-bounce"
+                  class="absolute bottom-1/4 -left-6 rounded-2xl border border-slate-200 bg-white p-3 shadow-xl dark:border-slate-700 dark:bg-slate-800 animate-bounce"
                   style="animation-duration: 2s; animation-delay: 1.5s"
                   aria-hidden="true"
                 >
-                  <i class="fa-solid fa-code text-3xl text-primary"></i>
+                  <i
+                    class="fa-brands fa-github text-3xl text-slate-800 dark:text-white"
+                  ></i>
                 </div>
               </div>
             </div>
@@ -536,13 +566,13 @@
                   <p
                     class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed mb-4"
                   >
-                    مطور واجهات أمامية بخبرة +3 سنوات في بناء تطبيقات ويب حديثة
+                    مطور واجهات أمامية بخبرة +1 سنوات في بناء تطبيقات ويب حديثة
                     وتصميم تجارب مستخدم استثنائية.
                   </p>
                   <p
                     class="text-lg text-slate-600 dark:text-slate-300 leading-relaxed"
                   >
-                    بشتغل بأحدث التقنيات زي React و Next.js و TypeScript عشان
+                    بشتغل بأحدث التقنيات زي Tailwind و Angular و TypeScript عشان
                     أقدم حلول عالية الجودة وتعدي التوقعات.
                   </p>
                 </div>
@@ -560,13 +590,13 @@
                   class="flex items-center gap-2 bg-gray-200 dark:bg-slate-800 px-4 py-2 rounded-full"
                 >
                   <i class="fa-solid fa-briefcase text-secondary"></i>
-                  <span class="text-sm font-medium">+50 مشروع</span>
+                  <span class="text-sm font-medium">+20 مشروع</span>
                 </div>
                 <div
                   class="flex items-center gap-2 bg-gray-200 dark:bg-slate-800 px-4 py-2 rounded-full"
                 >
                   <i class="fa-solid fa-users text-accent"></i>
-                  <span class="text-sm font-medium">+35 عميل سعيد</span>
+                  <span class="text-sm font-medium">+15 عميل سعيد</span>
                 </div>
               </div>
 
@@ -583,7 +613,7 @@
                     class="flex items-center gap-3 text-slate-600 dark:text-slate-300"
                   >
                     <span class="w-2 h-2 bg-primary rounded-full"></span>
-                    <span>تطوير تطبيقات ويب متكاملة بـ React & Next.js</span>
+                    <span>تطوير تطبيقات ويب متكاملة بـ Angular</span>
                   </div>
                   <div
                     class="flex items-center gap-3 text-slate-600 dark:text-slate-300"
@@ -602,6 +632,12 @@
                   >
                     <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
                     <span>تطوير مواقع متوافقة مع جميع الأجهزة</span>
+                  </div>
+                  <div
+                    class="flex items-center gap-3 text-slate-600 dark:text-slate-300"
+                  >
+                    <span class="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                    <span>كتابة كود منظم وقابل لإعادة الاستخدام والصيانة</span>
                   </div>
                 </div>
               </div>
@@ -644,7 +680,7 @@
                   </p>
                   <p class="ml-4">
                     <span class="text-green-400">experience</span>:
-                    <span class="text-orange-400">3</span> +
+                    <span class="text-orange-400">1</span> +
                     <span class="text-yellow-400">" years"</span>,
                   </p>
                   <p class="ml-4">
@@ -655,13 +691,29 @@
                     <span class="text-green-400">skills</span>: [
                   </p>
                   <p class="ml-8">
-                    <span class="text-yellow-400">"React"</span>,
-                    <span class="text-yellow-400">"Next.js"</span>,
+                    <span class="text-yellow-400">"Angular"</span>
                   </p>
                   <p class="ml-8">
                     <span class="text-yellow-400">"TypeScript"</span>,
-                    <span class="text-yellow-400">"Tailwind"</span>
+                    <span class="text-yellow-400">"Tailwind"</span>,
+                    <span class="text-yellow-400">"JavaScript"</span>,
+                    <span class="text-yellow-400">"RxJS"</span>
                   </p>
+
+                  <p class="ml-8">
+                    <span class="text-yellow-400">"HTML"</span>,
+                    <span class="text-yellow-400">"CSS"</span>,
+                    <span class="text-yellow-400">"Tailwind CSS"</span>,
+                    <span class="text-yellow-400">"REST APIs"</span>
+                  </p>
+
+                  <p class="ml-8">
+                    <span class="text-yellow-400">"Node.js"</span>,
+                    <span class="text-yellow-400">"Git"</span>,
+                    <span class="text-yellow-400">"GitHub"</span>,
+                    <span class="text-yellow-400">"Responsive Design"</span>
+                  </p>
+
                   <p class="ml-4">],</p>
                   <p class="ml-4">
                     <span class="text-green-400">passion</span>:
@@ -690,7 +742,7 @@
                 <div
                   class="bg-slate-50 dark:bg-slate-800/80 backdrop-blur-sm rounded-2xl p-5 text-center border border-slate-200 dark:border-slate-700 hover:border-primary transition-all duration-300"
                 >
-                  <div class="text-3xl font-black text-primary mb-1">50+</div>
+                  <div class="text-3xl font-black text-primary mb-1">20+</div>
                   <div class="text-sm text-slate-600 dark:text-slate-400">
                     مشروع
                   </div>
@@ -698,7 +750,7 @@
                 <div
                   class="bg-slate-50 dark:bg-slate-800/80 backdrop-blur-sm rounded-2xl p-5 text-center border border-slate-200 dark:border-slate-700 hover:border-secondary transition-all duration-300"
                 >
-                  <div class="text-3xl font-black text-secondary mb-1">3+</div>
+                  <div class="text-3xl font-black text-secondary mb-1">1+</div>
                   <div class="text-sm text-slate-600 dark:text-slate-400">
                     سنوات
                   </div>
@@ -706,7 +758,7 @@
                 <div
                   class="bg-slate-50 dark:bg-slate-800/80 backdrop-blur-sm rounded-2xl p-5 text-center border border-slate-200 dark:border-slate-700 hover:border-accent transition-all duration-300"
                 >
-                  <div class="text-3xl font-black text-accent mb-1">35+</div>
+                  <div class="text-3xl font-black text-accent mb-1">15+</div>
                   <div class="text-sm text-slate-600 dark:text-slate-400">
                     عميل
                   </div>
@@ -763,98 +815,84 @@
 
       <section
         id="skills-section"
-        class="py-24 px-4 md:px-8 bg-slate-50 dark:bg-transparent relative overflow-hidden"
+        class="relative overflow-hidden bg-slate-50 px-4 py-24 dark:bg-transparent md:px-8"
         aria-labelledby="skills-title"
       >
+        <!-- Background decoration -->
         <div
-          class="absolute bottom-0 right-1/3 w-96 h-96 bg-secondary rounded-full filter blur-3xl opacity-10"
+          class="absolute bottom-0 right-1/3 h-96 w-96 rounded-full bg-secondary opacity-10 blur-3xl"
         ></div>
-        <div class="container mx-auto max-w-7xl relative z-10">
-          <div class="text-center mb-16">
-            <span class="text-secondary text-lg font-medium mb-3 block"
-              >ما أتقنه</span
-            >
-            <h2 id="skills-title" class="text-5xl font-black mb-4">
+
+        <div class="container relative z-10 mx-auto max-w-7xl">
+          <!-- Section Header -->
+          <div class="mb-16 text-center">
+            <span class="mb-3 block text-lg font-medium text-secondary">
+              ما أتقنه
+            </span>
+
+            <h2 id="skills-title" class="mb-4 text-5xl font-black">
               المهارات و
               <span
                 class="bg-linear-to-r from-secondary to-accent bg-clip-text text-transparent"
-                >التقنيات</span
               >
+                التقنيات
+              </span>
             </h2>
+
             <div
-              class="w-24 h-1.5 bg-linear-to-r from-secondary to-accent mx-auto rounded-full"
+              class="mx-auto h-1.5 w-24 rounded-full bg-linear-to-r from-secondary to-accent"
             ></div>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Main Skills -->
+          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Angular -->
             <div
-              class="bg-white dark:bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-300 dark:border-slate-700 hover:border-primary transition-all duration-300 hover:transform hover:scale-105"
+              class="rounded-2xl border border-slate-300 bg-white p-8 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-primary dark:border-slate-700 dark:bg-slate-800/30"
             >
-              <div class="flex items-center justify-between mb-6">
-                <h3 class="text-2xl font-bold">React.js</h3>
-                <i
-                  class="fa-brands fa-react text-4xl text-primary"
-                  aria-hidden="true"
-                ></i>
-              </div>
-              <div
-                class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3 mb-3"
-                role="progressbar"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                aria-label="مستوى المهارة في React.js"
-              >
-                <div
-                  class="bg-linear-to-r from-primary to-secondary h-3 rounded-full"
-                  style="width: 95%"
-                ></div>
-              </div>
-              <p class="text-slate-500 dark:text-slate-400">
-                خبرة متقدمة في بناء تطبيقات React معقدة
-              </p>
-            </div>
+              <div class="mb-6 flex items-center justify-between">
+                <h3 class="text-2xl font-bold">Angular</h3>
 
-            <div
-              class="bg-slate-50 dark:bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-300 dark:border-slate-700 hover:border-secondary transition-all duration-300 hover:transform hover:scale-105"
-            >
-              <div class="flex items-center justify-between mb-6">
-                <h3 class="text-2xl font-bold">Next.js</h3>
                 <i
-                  class="fa-solid fa-n text-4xl text-secondary"
+                  class="fa-brands fa-angular text-4xl text-red-500"
                   aria-hidden="true"
                 ></i>
               </div>
+
               <div
-                class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3 mb-3"
+                class="mb-3 h-3 w-full rounded-full bg-slate-200 dark:bg-slate-700"
                 role="progressbar"
                 aria-valuenow="90"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                aria-label="مستوى المهارة في Next.js"
+                aria-label="مستوى المهارة في Angular"
               >
                 <div
-                  class="bg-linear-to-r from-secondary to-accent h-3 rounded-full"
+                  class="h-3 rounded-full bg-linear-to-r from-primary to-secondary"
                   style="width: 90%"
                 ></div>
               </div>
+
               <p class="text-slate-500 dark:text-slate-400">
-                تطوير تطبيقات SSR وSSG متقدمة
+                تطوير تطبيقات ويب متكاملة باستخدام Angular
               </p>
             </div>
 
+            <!-- TypeScript -->
             <div
-              class="bg-slate-50 dark:bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-300 dark:border-slate-700 hover:border-accent transition-all duration-300 hover:transform hover:scale-105"
+              class="rounded-2xl border border-slate-300 bg-slate-50 p-8 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-secondary dark:border-slate-700 dark:bg-slate-800/30"
             >
-              <div class="flex items-center justify-between mb-6">
+              <div class="mb-6 flex items-center justify-between">
                 <h3 class="text-2xl font-bold">TypeScript</h3>
+
                 <i
-                  class="fa-solid fa-code text-4xl text-accent"
+                  class="fa-solid fa-code text-4xl text-secondary"
                   aria-hidden="true"
                 ></i>
               </div>
+
               <div
-                class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3 mb-3"
+                class="mb-3 h-3 w-full rounded-full bg-slate-200 dark:bg-slate-700"
                 role="progressbar"
                 aria-valuenow="88"
                 aria-valuemin="0"
@@ -862,128 +900,197 @@
                 aria-label="مستوى المهارة في TypeScript"
               >
                 <div
-                  class="bg-linear-to-r from-accent to-primary h-3 rounded-full"
+                  class="h-3 rounded-full bg-linear-to-r from-secondary to-accent"
                   style="width: 88%"
                 ></div>
               </div>
+
               <p class="text-slate-500 dark:text-slate-400">
-                كتابة كود آمن ومنظم بشكل احترافي
+                كتابة كود منظم وقابل لإعادة الاستخدام والصيانة
               </p>
             </div>
 
+            <!-- RxJS -->
             <div
-              class="bg-white dark:bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-300 dark:border-slate-700 hover:border-primary transition-all duration-300 hover:transform hover:scale-105"
+              class="rounded-2xl border border-slate-300 bg-white p-8 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-accent dark:border-slate-700 dark:bg-slate-800/30"
             >
-              <div class="flex items-center justify-between mb-6">
+              <div class="mb-6 flex items-center justify-between">
+                <h3 class="text-2xl font-bold">RxJS</h3>
+
+                <i
+                  class="fa-solid fa-arrows-spin text-4xl text-accent"
+                  aria-hidden="true"
+                ></i>
+              </div>
+
+              <div
+                class="mb-3 h-3 w-full rounded-full bg-slate-200 dark:bg-slate-700"
+                role="progressbar"
+                aria-valuenow="82"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-label="مستوى المهارة في RxJS"
+              >
+                <div
+                  class="h-3 rounded-full bg-linear-to-r from-accent to-primary"
+                  style="width: 82%"
+                ></div>
+              </div>
+
+              <p class="text-slate-500 dark:text-slate-400">
+                التعامل مع البيانات غير المتزامنة وإدارة الـStreams
+              </p>
+            </div>
+
+            <!-- Tailwind CSS -->
+            <div
+              class="rounded-2xl border border-slate-300 bg-white p-8 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-primary dark:border-slate-700 dark:bg-slate-800/30"
+            >
+              <div class="mb-6 flex items-center justify-between">
                 <h3 class="text-2xl font-bold">Tailwind CSS</h3>
+
                 <i
                   class="fa-solid fa-wind text-4xl text-primary"
                   aria-hidden="true"
                 ></i>
               </div>
+
               <div
-                class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3 mb-3"
+                class="mb-3 h-3 w-full rounded-full bg-slate-200 dark:bg-slate-700"
                 role="progressbar"
-                aria-valuenow="97"
+                aria-valuenow="90"
                 aria-valuemin="0"
                 aria-valuemax="100"
                 aria-label="مستوى المهارة في Tailwind CSS"
               >
                 <div
-                  class="bg-linear-to-r from-primary to-secondary h-3 rounded-full"
-                  style="width: 97%"
+                  class="h-3 rounded-full bg-linear-to-r from-primary to-secondary"
+                  style="width: 90%"
                 ></div>
               </div>
+
               <p class="text-slate-500 dark:text-slate-400">
-                تصميم واجهات حديثة بسرعة عالية
+                بناء واجهات حديثة ومتجاوبة باستخدام Tailwind CSS
               </p>
             </div>
 
+            <!-- REST APIs -->
             <div
-              class="bg-slate-50 dark:bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-300 dark:border-slate-700 hover:border-secondary transition-all duration-300 hover:transform hover:scale-105"
+              class="rounded-2xl border border-slate-300 bg-slate-50 p-8 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-secondary dark:border-slate-700 dark:bg-slate-800/30"
             >
-              <div class="flex items-center justify-between mb-6">
-                <h3 class="text-2xl font-bold">Node.js</h3>
+              <div class="mb-6 flex items-center justify-between">
+                <h3 class="text-2xl font-bold">REST APIs</h3>
+
                 <i
-                  class="fa-brands fa-node-js text-4xl text-secondary"
+                  class="fa-solid fa-cloud-arrow-down text-4xl text-secondary"
                   aria-hidden="true"
                 ></i>
               </div>
+
               <div
-                class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3 mb-3"
+                class="mb-3 h-3 w-full rounded-full bg-slate-200 dark:bg-slate-700"
                 role="progressbar"
                 aria-valuenow="85"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                aria-label="مستوى المهارة في Node.js"
+                aria-label="مستوى المهارة في REST APIs"
               >
                 <div
-                  class="bg-linear-to-r from-secondary to-accent h-3 rounded-full"
+                  class="h-3 rounded-full bg-linear-to-r from-secondary to-accent"
                   style="width: 85%"
                 ></div>
               </div>
+
               <p class="text-slate-500 dark:text-slate-400">
-                بناء APIs وخدمات الخلفية
+                ربط تطبيقات Angular بالـAPIs والتعامل مع البيانات
               </p>
             </div>
 
+            <!-- Git & GitHub -->
             <div
-              class="bg-slate-50 dark:bg-slate-800/30 backdrop-blur-sm rounded-2xl p-8 border border-slate-300 dark:border-slate-700 hover:border-accent transition-all duration-300 hover:transform hover:scale-105"
+              class="rounded-2xl border border-slate-300 bg-slate-50 p-8 backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:border-accent dark:border-slate-700 dark:bg-slate-800/30"
             >
-              <div class="flex items-center justify-between mb-6">
-                <h3 class="text-2xl font-bold">Figma</h3>
+              <div class="mb-6 flex items-center justify-between">
+                <h3 class="text-2xl font-bold">Git & GitHub</h3>
+
                 <i
-                  class="fa-brands fa-figma text-4xl text-accent"
+                  class="fa-brands fa-github text-4xl text-accent"
                   aria-hidden="true"
                 ></i>
               </div>
+
               <div
-                class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-3 mb-3"
+                class="mb-3 h-3 w-full rounded-full bg-slate-200 dark:bg-slate-700"
                 role="progressbar"
-                aria-valuenow="92"
+                aria-valuenow="85"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                aria-label="مستوى المهارة في Figma"
+                aria-label="مستوى المهارة في Git and GitHub"
               >
                 <div
-                  class="bg-linear-to-r from-accent to-primary h-3 rounded-full"
-                  style="width: 92%"
+                  class="h-3 rounded-full bg-linear-to-r from-accent to-primary"
+                  style="width: 85%"
                 ></div>
               </div>
+
               <p class="text-slate-500 dark:text-slate-400">
-                تصميم واجهات احترافية ونماذج تفاعلية
+                Git branching وPull Requests وCode Review وإدارة المشاريع
               </p>
             </div>
           </div>
 
-          <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
+          <!-- Additional Skills -->
+          <div class="mt-16 grid grid-cols-2 gap-6 md:grid-cols-4">
+            <!-- HTML5 -->
             <div
-              class="text-center p-6 bg-slate-100 dark:bg-slate-800/20 rounded-xl border border-slate-300 dark:border-slate-700"
+              class="rounded-xl border border-slate-300 bg-slate-100 p-6 text-center dark:border-slate-700 dark:bg-slate-800/20"
             >
-              <i class="fa-brands fa-html5 text-5xl text-orange-500 mb-3"></i>
-              <p class="text-slate-600 dark:text-slate-300 font-medium">
+              <i
+                class="fa-brands fa-html5 mb-3 text-5xl text-orange-500"
+                aria-hidden="true"
+              ></i>
+
+              <p class="font-medium text-slate-600 dark:text-slate-300">
                 HTML5
               </p>
             </div>
+
+            <!-- CSS3 -->
             <div
-              class="text-center p-6 bg-slate-100 dark:bg-slate-800/20 rounded-xl border border-slate-300 dark:border-slate-700"
+              class="rounded-xl border border-slate-300 bg-slate-100 p-6 text-center dark:border-slate-700 dark:bg-slate-800/20"
             >
-              <i class="fa-brands fa-css3-alt text-5xl text-blue-500 mb-3"></i>
-              <p class="text-slate-600 dark:text-slate-300 font-medium">CSS3</p>
+              <i
+                class="fa-brands fa-css3-alt mb-3 text-5xl text-blue-500"
+                aria-hidden="true"
+              ></i>
+
+              <p class="font-medium text-slate-600 dark:text-slate-300">CSS3</p>
             </div>
+
+            <!-- JavaScript -->
             <div
-              class="text-center p-6 bg-slate-100 dark:bg-slate-800/20 rounded-xl border border-slate-300 dark:border-slate-700"
+              class="rounded-xl border border-slate-300 bg-slate-100 p-6 text-center dark:border-slate-700 dark:bg-slate-800/20"
             >
-              <i class="fa-brands fa-js text-5xl text-yellow-400 mb-3"></i>
-              <p class="text-slate-600 dark:text-slate-300 font-medium">
+              <i
+                class="fa-brands fa-js mb-3 text-5xl text-yellow-400"
+                aria-hidden="true"
+              ></i>
+
+              <p class="font-medium text-slate-600 dark:text-slate-300">
                 JavaScript
               </p>
             </div>
+
+            <!-- Git -->
             <div
-              class="text-center p-6 bg-slate-100 dark:bg-slate-800/20 rounded-xl border border-slate-300 dark:border-slate-700"
+              class="rounded-xl border border-slate-300 bg-slate-100 p-6 text-center dark:border-slate-700 dark:bg-slate-800/20"
             >
-              <i class="fa-brands fa-git-alt text-5xl text-red-500 mb-3"></i>
-              <p class="text-slate-600 dark:text-slate-300 font-medium">Git</p>
+              <i
+                class="fa-brands fa-git-alt mb-3 text-5xl text-red-500"
+                aria-hidden="true"
+              ></i>
+
+              <p class="font-medium text-slate-600 dark:text-slate-300">Git</p>
             </div>
           </div>
         </div>
@@ -1080,7 +1187,7 @@
                   class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   loading="lazy"
                   decoding="async"
-                  src="assets/imgs/portfolio-1-BqicZ04C.webp"
+                  src="assets/imgs/4eae7b0b-8e4a-4892-9600-1445a2b5f376.jpg"
                   alt="modern e-commerce website design with purple gradient, shopping cart interface, product showcase"
                 />
                 <div
@@ -1095,7 +1202,7 @@
                   >
                   <div class="flex gap-2">
                     <a
-                      href="#"
+                      href="https://shopping-zone-dun.vercel.app"
                       class="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-lg flex items-center justify-center hover:bg-primary transition-colors duration-300 group"
                       aria-label="معاينة المشروع"
                     >
@@ -1105,7 +1212,7 @@
                       ></i>
                     </a>
                     <a
-                      href="#"
+                      href="https://github.com/Amr-Ahmed-Dev/E-commerce.git"
                       class="w-10 h-10 bg-slate-200 dark:bg-slate-700 rounded-lg flex items-center justify-center hover:bg-primary transition-colors duration-300 group"
                       aria-label="كود المشروع على GitHub"
                     >
@@ -1123,15 +1230,15 @@
                 <div class="flex flex-wrap gap-2">
                   <span
                     class="px-3 py-1 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs"
-                    >React</span
+                    >Angular.js</span
                   >
                   <span
                     class="px-3 py-1 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs"
-                    >Node.js</span
+                    >TS</span
                   >
                   <span
                     class="px-3 py-1 bg-slate-100 dark:bg-slate-700 rounded-lg text-xs"
-                    >MongoDB</span
+                    >Tailwind</span
                   >
                 </div>
               </div>

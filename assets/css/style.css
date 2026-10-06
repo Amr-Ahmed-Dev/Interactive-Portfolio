@@ -3551,3 +3551,16 @@ textarea:focus-visible,
 .portfolio-item.hidden {
   display: none;
 }
+.angular-icon {
+  color: #dd0031;
+  background: linear-gradient(135deg, #dd0031, #c3002f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .angular-icon {
+  color: #ff4d6d;
+  background: linear-gradient(135deg, #ff4d6d, #dd0031);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
